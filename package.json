@@ -9,7 +9,7 @@
     "build": "tsc",
     "test": "NODE_ENV=test jest --detectOpenHandles --forceExit --runInBand",
     "test:watch": "NODE_ENV=test jest --watch --detectOpenHandles",
-    "test:debug": "NODE_ENV=test jest --detectOpenHandles --verbose --no-cache",  
+    "test:debug": "NODE_ENV=test jest --detectOpenHandles --verbose --no-cache",
     "lint": "eslint src/**/*.ts",
     "lint:fix": "eslint src/**/*.ts --fix"
   },
@@ -33,7 +33,9 @@
     "@types/bcryptjs": "^3.0.0",
     "@types/cors": "^2.8.18",
     "@types/express": "^4.17.22",
+    "@types/helmet": "^4.0.0",
     "@types/jest": "^29.5.14",
+    "@types/joi": "^17.2.3",
     "@types/jsonwebtoken": "^9.0.9",
     "@types/mongoose": "^5.11.97",
     "@types/node": "^22.15.29",
