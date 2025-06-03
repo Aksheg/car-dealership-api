@@ -30,6 +30,10 @@ app.use("/api/categories", categoryRoutes);
 app.use("/api/customers", customerRoutes);
 app.use("/api/managers", managerRoutes);
 
+app.get("/", (req, res) => {
+  res.send("Car Dealership API is running.");
+});
+
 app.get("/health", (req, res) => {
   res.status(200).json({ status: "OK", timestamp: new Date().toISOString() });
 });
